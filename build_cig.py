@@ -29,13 +29,15 @@ def main() -> None:
     if kernel.bootstrap_if_empty():
         kernel.scan_vault()
 
-    # Ingestor: process inbox.md if present (then clears it)
-    ingestor = Ingestor(vault_path=VAULT_PATH)
-    ingestor.process_inbox()
+    ingestor = Ingestor()
+    created = ingestor.process_inbox()
+    print(f"📥 Ingested {len(created)} new notes from inbox")
+
     kernel.scan_vault()
 
-    # Mapper: wikilinks, keyword overlap, strength-weighted edges
-    Mapper(vault_path=VAULT_PATH).build_edges(kernel)
+    mapper = Mapper()
+    mapper.build_edges(kernel)
+    print(f"🔗 Built {len(kernel.edges)} smart edges")
 
     # 8 fast cycles
     coherence_history = []
