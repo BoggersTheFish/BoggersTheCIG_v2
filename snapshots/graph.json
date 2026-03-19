@@ -135,6 +135,21 @@
         "type": "emergent"
       }
     },
+    "Emergent_Concept_20260319_183347_0": {
+      "id": "Emergent_Concept_20260319_183347_0",
+      "base_strength": 0.6,
+      "activation": 0.94,
+      "attributes": {
+        "tags": [
+          "Emergent_Concept_20260319_024915_0",
+          "Human_vs_TS_Thinking",
+          "Emergent_Concept_20260319_063945_0",
+          "Emergent_Concept_20260319_154041_0",
+          "Emergent_Concept_20260319_164037_0"
+        ],
+        "type": "emergent"
+      }
+    },
     "Emergent_Concept_20260319_073552_0": {
       "id": "Emergent_Concept_20260319_073552_0",
       "base_strength": 0.6,
@@ -402,39 +417,40 @@
         "type": "emergent"
       }
     },
-    "Emergent_Concept_20260319_183347_0": {
-      "id": "Emergent_Concept_20260319_183347_0",
+    "Emergent_Concept_20260319_193016_0": {
+      "id": "Emergent_Concept_20260319_193016_0",
       "base_strength": 0.6,
-      "activation": 0.9032958843749999,
+      "activation": 0.9051259078124998,
       "attributes": {
         "tags": [
-          "Emergent_Concept_20260319_024915_0",
-          "Human_vs_TS_Thinking",
-          "Emergent_Concept_20260319_063945_0",
-          "Emergent_Concept_20260319_154041_0",
-          "Emergent_Concept_20260319_164037_0",
-          "Emergent_Concept_20260319_073552_0",
-          "Emergent_Concept_20260319_025343_0",
-          "CIG_Is_TS",
+          "Meta_Cognition",
+          "Emergent_Concept_20260319_112135_0",
           "Emergent_Concept_20260319_115411_0",
-          "Emergent_Concept_20260319_025806_0",
-          "Emergent_Concept_20260319_135759_0",
+          "Human_vs_TS_Thinking",
+          "Emergent_Concept_20260319_164037_0",
           "AI_Consciousness",
-          "Emergent_Concept_20260319_080640_0",
+          "Emergent_Concept_20260319_085946_0",
+          "CIG_Is_TS",
+          "Emergent_Concept_20260319_063945_0",
+          "Emergent_Concept_20260319_024915_0",
+          "Emergent_Concept_20260319_095540_0",
+          "Emergent_Concept_20260319_174116_0",
+          "Emergent_Concept_20260319_025806_0",
+          "Emergent_Concept_20260319_025006_0",
+          "Emergent_Concept_20260319_073552_0",
+          "Emergent_Concept_20260319_103707_0",
+          "Emergent_Concept_20260319_154041_0",
+          "Emergent_Concept_20260319_124352_0",
+          "Emergent_Concept_20260319_043539_0",
+          "Emergent_Concept_20260319_025202_0",
           "Emergent_Concept_20260319_145212_0",
           "TS_Core",
           "Emergent_Concept_20260319_054454_0",
-          "Emergent_Concept_20260319_025006_0",
-          "Emergent_Concept_20260319_112135_0",
-          "Emergent_Concept_20260319_174116_0",
-          "Emergent_Concept_20260319_043539_0",
-          "Emergent_Concept_20260319_085946_0",
-          "Emergent_Concept_20260319_124352_0",
-          "Meta_Cognition",
-          "Emergent_Concept_20260319_025202_0",
-          "Emergent_Concept_20260319_095540_0",
-          "Consciousness_Exploration",
-          "Emergent_Concept_20260319_103707_0"
+          "Emergent_Concept_20260319_183347_0",
+          "Emergent_Concept_20260319_135759_0",
+          "Emergent_Concept_20260319_025343_0",
+          "Emergent_Concept_20260319_080640_0",
+          "Consciousness_Exploration"
         ],
         "type": "emergent"
       }
@@ -442,78 +458,168 @@
   },
   "edges": [
     {
+      "src": "Emergent_Concept_20260319_112135_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_115411_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Human_vs_TS_Thinking",
+      "dst": "Meta_Cognition",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_164037_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Meta_Cognition",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
       "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_174116_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_154041_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_124352_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_145212_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Meta_Cognition",
+      "dst": "TS_Core",
+      "weight": 0.3621621621621622
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_183347_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_135759_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Meta_Cognition",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_112135_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_112135_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
+      "src": "Emergent_Concept_20260319_112135_0",
       "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_073552_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_025343_0",
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_112135_0",
+      "weight": 0.32
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
       "weight": 0.6
     },
     {
       "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_025806_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.575
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_024915_0",
-      "weight": 0.32
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_080640_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_054454_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_025006_0",
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
       "weight": 0.6
     },
     {
@@ -522,79 +628,89 @@
       "weight": 0.575
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
       "weight": 0.575
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_043539_0",
+      "src": "Emergent_Concept_20260319_112135_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_085946_0",
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_112135_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_112135_0",
       "dst": "Emergent_Concept_20260319_124352_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_025202_0",
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_112135_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_112135_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_112135_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
       "weight": 0.6
     },
     {
       "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
       "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_154041_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_164037_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.34285714285714286
     },
     {
       "src": "Emergent_Concept_20260319_115411_0",
@@ -602,12 +718,122 @@
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Human_vs_TS_Thinking",
+      "src": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.6
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.32
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.575
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_115411_0",
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_135759_0",
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_164037_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.325
     },
@@ -617,7 +843,72 @@
       "weight": 0.33793103448275863
     },
     {
-      "src": "Emergent_Concept_20260319_080640_0",
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.34285714285714286
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_174116_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_154041_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_124352_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.325
     },
@@ -637,47 +928,22 @@
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
+      "src": "Emergent_Concept_20260319_183347_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_112135_0",
+      "src": "Emergent_Concept_20260319_135759_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_174116_0",
+      "src": "Emergent_Concept_20260319_025343_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_124352_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "Human_vs_TS_Thinking",
-      "dst": "Meta_Cognition",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
+      "src": "Emergent_Concept_20260319_080640_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.325
     },
@@ -687,242 +953,12 @@
       "weight": 0.33793103448275863
     },
     {
-      "src": "Emergent_Concept_20260319_103707_0",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_073552_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.6
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.6
-    },
-    {
       "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.32
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_080640_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_154041_0",
       "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.575
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_115411_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_135759_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.575
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_154041_0",
       "weight": 0.32
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_145212_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_112135_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_154041_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_124352_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_154041_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_103707_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
       "dst": "Emergent_Concept_20260319_164037_0",
       "weight": 0.6
     },
@@ -932,8 +968,23 @@
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_115411_0",
+      "src": "Emergent_Concept_20260319_063945_0",
       "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_164037_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
       "weight": 0.6
     },
     {
@@ -942,19 +993,39 @@
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_135759_0",
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
       "dst": "Emergent_Concept_20260319_164037_0",
       "weight": 0.6
     },
     {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.32
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
+      "src": "Emergent_Concept_20260319_103707_0",
       "dst": "Emergent_Concept_20260319_164037_0",
       "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_154041_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_124352_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.575
     },
     {
       "src": "Emergent_Concept_20260319_145212_0",
@@ -967,218 +1038,213 @@
       "weight": 0.575
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_112135_0",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.6
-    },
-    {
       "src": "Emergent_Concept_20260319_164037_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_124352_0",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_164037_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_164037_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_103707_0",
+      "src": "Emergent_Concept_20260319_135759_0",
       "dst": "Emergent_Concept_20260319_164037_0",
       "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
       "weight": 0.6
     },
     {
-      "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_073552_0",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_164037_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_073552_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.6
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_164037_0",
+      "weight": 0.3666666666666667
     },
     {
       "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
       "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_080640_0",
-      "weight": 0.6
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_063945_0",
+      "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
-      "weight": 0.6
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_024915_0",
+      "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_073552_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_073552_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_073552_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_073552_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_073552_0",
+      "src": "AI_Consciousness",
       "dst": "Emergent_Concept_20260319_095540_0",
-      "weight": 0.6
+      "weight": 0.32
     },
     {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_073552_0",
-      "weight": 0.3666666666666667
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_073552_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.575
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_025343_0",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
+      "src": "AI_Consciousness",
       "dst": "Emergent_Concept_20260319_025806_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.575
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_025343_0",
       "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_080640_0",
-      "weight": 0.6
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_025006_0",
+      "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
-      "weight": 0.6
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_054454_0",
-      "weight": 0.6
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_025343_0",
-      "weight": 0.6
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.6
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.32
     },
     {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
+      "src": "AI_Consciousness",
       "dst": "Emergent_Concept_20260319_043539_0",
+      "weight": 0.32
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_025202_0",
+      "weight": 0.32
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.32
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_054454_0",
+      "weight": 0.32
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.32
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.32
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_025343_0",
+      "weight": 0.32
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_080640_0",
+      "weight": 0.32
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Consciousness_Exploration",
+      "weight": 0.45925925925925926
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_085946_0",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_085946_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
       "weight": 0.6
     },
     {
@@ -1187,38 +1253,33 @@
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_025343_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
       "weight": 0.6
     },
     {
       "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_085946_0",
       "weight": 0.3666666666666667
     },
     {
-      "src": "Emergent_Concept_20260319_025343_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.6
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_063945_0",
+      "weight": 0.325
     },
     {
       "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_024915_0",
+      "weight": 0.325
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.325
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_174116_0",
       "weight": 0.325
     },
     {
@@ -1228,12 +1289,37 @@
     },
     {
       "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_135759_0",
+      "dst": "Emergent_Concept_20260319_025006_0",
       "weight": 0.325
     },
     {
       "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.325
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.325
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.325
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.325
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_043539_0",
+      "weight": 0.325
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_025202_0",
       "weight": 0.325
     },
     {
@@ -1253,147 +1339,387 @@
     },
     {
       "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
       "weight": 0.325
     },
     {
       "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_112135_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
       "weight": 0.325
     },
     {
       "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_174116_0",
+      "dst": "Emergent_Concept_20260319_025343_0",
       "weight": 0.325
     },
     {
       "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
       "weight": 0.325
     },
     {
-      "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.325
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.325
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_025202_0",
-      "weight": 0.325
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_095540_0",
-      "weight": 0.325
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_063945_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_115411_0",
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_063945_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_063945_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_063945_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_063945_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_063945_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_063945_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_063945_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_063945_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_025806_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_025006_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_043539_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_025202_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_054454_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
       "dst": "Emergent_Concept_20260319_135759_0",
       "weight": 0.575
     },
     {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.32
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_025343_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_115411_0",
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_024915_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_095540_0",
       "dst": "Emergent_Concept_20260319_145212_0",
       "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_112135_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
       "weight": 0.575
     },
     {
-      "src": "Emergent_Concept_20260319_115411_0",
+      "src": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_095540_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_154041_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_124352_0",
       "dst": "Emergent_Concept_20260319_174116_0",
       "weight": 0.575
     },
     {
       "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
       "weight": 0.575
     },
     {
-      "src": "Emergent_Concept_20260319_115411_0",
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_145212_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_174116_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_135759_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_174116_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_025806_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025806_0",
       "dst": "Emergent_Concept_20260319_124352_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_115411_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_043539_0",
+      "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_103707_0",
-      "dst": "Emergent_Concept_20260319_115411_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.575
-    },
-    {
-      "src": "AI_Consciousness",
       "dst": "Emergent_Concept_20260319_025806_0",
-      "weight": 0.32
-    },
-    {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_080640_0",
       "weight": 0.6
     },
     {
@@ -1407,48 +1733,23 @@
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_025806_0",
+      "src": "Emergent_Concept_20260319_025806_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
       "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
       "weight": 0.575
     },
     {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_043539_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
+      "src": "Emergent_Concept_20260319_025343_0",
       "dst": "Emergent_Concept_20260319_025806_0",
       "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_025806_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
       "weight": 0.6
     },
     {
@@ -1457,214 +1758,174 @@
       "weight": 0.3666666666666667
     },
     {
-      "src": "Emergent_Concept_20260319_025806_0",
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
       "dst": "Emergent_Concept_20260319_103707_0",
       "weight": 0.6
     },
     {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.32
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_135759_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
       "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_112135_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_135759_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_124352_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_135759_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_103707_0",
-      "dst": "Emergent_Concept_20260319_135759_0",
-      "weight": 0.6
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_080640_0",
-      "weight": 0.32
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_145212_0",
-      "weight": 0.32
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_054454_0",
-      "weight": 0.32
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_025006_0",
-      "weight": 0.32
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.32
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.32
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_043539_0",
-      "weight": 0.32
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.32
-    },
-    {
-      "src": "AI_Consciousness",
       "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.32
+      "weight": 0.6
     },
     {
-      "src": "AI_Consciousness",
-      "dst": "Meta_Cognition",
-      "weight": 0.325
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_043539_0",
+      "weight": 0.6
     },
     {
-      "src": "AI_Consciousness",
+      "src": "Emergent_Concept_20260319_025006_0",
       "dst": "Emergent_Concept_20260319_025202_0",
-      "weight": 0.32
+      "weight": 0.6
     },
     {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_095540_0",
-      "weight": 0.32
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Consciousness_Exploration",
-      "weight": 0.45925925925925926
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.32
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
+      "src": "Emergent_Concept_20260319_025006_0",
       "dst": "Emergent_Concept_20260319_145212_0",
-      "weight": 0.575
+      "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_080640_0",
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_054454_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_025343_0",
       "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_025006_0",
       "dst": "Emergent_Concept_20260319_080640_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_080640_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_080640_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_080640_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
       "weight": 0.6
     },
     {
       "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_025006_0",
       "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_073552_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_073552_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_103707_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_080640_0",
@@ -1672,33 +1933,68 @@
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_103707_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_124352_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_112135_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
       "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_145212_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
       "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_154041_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_135759_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_154041_0",
+      "weight": 0.3666666666666667
     },
     {
       "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
       "weight": 0.6
     },
     {
@@ -1707,9 +2003,74 @@
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_145212_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_124352_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_124352_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.575
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_124352_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_043539_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_054454_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_043539_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_043539_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_043539_0",
+      "weight": 0.3666666666666667
     },
     {
       "src": "Emergent_Concept_20260319_025202_0",
@@ -1717,24 +2078,64 @@
       "weight": 0.6
     },
     {
-      "src": "Emergent_Concept_20260319_095540_0",
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_054454_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_025343_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_025202_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
       "dst": "Emergent_Concept_20260319_145212_0",
       "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_145212_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_135759_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_145212_0",
+      "weight": 0.575
     },
     {
       "src": "Consciousness_Exploration",
       "dst": "Emergent_Concept_20260319_145212_0",
       "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_103707_0",
-      "dst": "Emergent_Concept_20260319_145212_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Meta_Cognition",
-      "dst": "TS_Core",
-      "weight": 0.3621621621621622
     },
     {
       "src": "Consciousness_Exploration",
@@ -1742,48 +2143,23 @@
       "weight": 0.3081081081081081
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_054454_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
       "dst": "Emergent_Concept_20260319_054454_0",
       "weight": 0.6
     },
     {
       "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_054454_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_054454_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
       "weight": 0.6
     },
     {
@@ -1792,289 +2168,54 @@
       "weight": 0.3666666666666667
     },
     {
-      "src": "Emergent_Concept_20260319_054454_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
+      "src": "Emergent_Concept_20260319_135759_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
       "weight": 0.575
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.6
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_183347_0",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
       "weight": 0.575
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_043539_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_025202_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
+      "src": "Emergent_Concept_20260319_080640_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
       "weight": 0.6
     },
     {
       "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_025006_0",
+      "dst": "Emergent_Concept_20260319_135759_0",
       "weight": 0.3666666666666667
     },
     {
-      "src": "Emergent_Concept_20260319_025006_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
+      "src": "Emergent_Concept_20260319_025343_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
       "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_112135_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_112135_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_112135_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.575
     },
     {
       "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_112135_0",
+      "dst": "Emergent_Concept_20260319_025343_0",
       "weight": 0.3666666666666667
     },
     {
-      "src": "Emergent_Concept_20260319_103707_0",
-      "dst": "Emergent_Concept_20260319_112135_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_124352_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_174116_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
       "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_174116_0",
+      "dst": "Emergent_Concept_20260319_080640_0",
       "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_103707_0",
-      "dst": "Emergent_Concept_20260319_174116_0",
-      "weight": 0.575
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_043539_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_043539_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_043539_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_085946_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_085946_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_124352_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_103707_0",
-      "dst": "Emergent_Concept_20260319_124352_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Meta_Cognition",
-      "weight": 0.325
-    },
-    {
-      "src": "Emergent_Concept_20260319_103707_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_095540_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_025202_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_095540_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "Emergent_Concept_20260319_095540_0",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.6
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_103707_0",
-      "weight": 0.3666666666666667
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "CIG_Is_TS",
-      "weight": 0.35000000000000003
     },
     {
       "src": "CIG_Is_TS",
@@ -2082,9 +2223,9 @@
       "weight": 0.4
     },
     {
-      "src": "CIG_Is_TS",
-      "dst": "Consciousness_Exploration",
-      "weight": 0.37500000000000006
+      "src": "AI_Consciousness",
+      "dst": "CIG_Is_TS",
+      "weight": 0.35000000000000003
     },
     {
       "src": "AI_Consciousness",
@@ -2092,53 +2233,58 @@
       "weight": 0.375
     },
     {
-      "src": "Emergent_Concept_20260319_183347_0",
-      "dst": "Emergent_Concept_20260319_024915_0",
+      "src": "CIG_Is_TS",
+      "dst": "Consciousness_Exploration",
+      "weight": 0.37500000000000006
+    },
+    {
+      "src": "Emergent_Concept_20260319_193016_0",
+      "dst": "Meta_Cognition",
       "weight": 0.3
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Emergent_Concept_20260319_183347_0",
+      "src": "Meta_Cognition",
+      "dst": "Emergent_Concept_20260319_193016_0",
       "weight": 0.3
     },
     {
-      "src": "Emergent_Concept_20260319_183347_0",
+      "src": "Emergent_Concept_20260319_193016_0",
+      "dst": "Emergent_Concept_20260319_112135_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_112135_0",
+      "dst": "Emergent_Concept_20260319_193016_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_193016_0",
+      "dst": "Emergent_Concept_20260319_115411_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_115411_0",
+      "dst": "Emergent_Concept_20260319_193016_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_193016_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.3
     },
     {
       "src": "Human_vs_TS_Thinking",
-      "dst": "Emergent_Concept_20260319_183347_0",
+      "dst": "Emergent_Concept_20260319_193016_0",
       "weight": 0.3
     },
     {
-      "src": "Emergent_Concept_20260319_183347_0",
-      "dst": "Emergent_Concept_20260319_063945_0",
-      "weight": 0.3
-    },
-    {
-      "src": "Emergent_Concept_20260319_063945_0",
-      "dst": "Emergent_Concept_20260319_183347_0",
-      "weight": 0.3
-    },
-    {
-      "src": "Emergent_Concept_20260319_183347_0",
-      "dst": "Emergent_Concept_20260319_154041_0",
-      "weight": 0.3
-    },
-    {
-      "src": "Emergent_Concept_20260319_154041_0",
-      "dst": "Emergent_Concept_20260319_183347_0",
-      "weight": 0.3
-    },
-    {
-      "src": "Emergent_Concept_20260319_183347_0",
+      "src": "Emergent_Concept_20260319_193016_0",
       "dst": "Emergent_Concept_20260319_164037_0",
       "weight": 0.3
     },
     {
       "src": "Emergent_Concept_20260319_164037_0",
-      "dst": "Emergent_Concept_20260319_183347_0",
+      "dst": "Emergent_Concept_20260319_193016_0",
       "weight": 0.3
     }
   ]
