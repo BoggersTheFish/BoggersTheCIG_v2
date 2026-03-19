@@ -1,16 +1,31 @@
 {
   "strongest_node": "CIG_Is_TS",
   "nodes": {
-    "AI_Consciousness": {
-      "id": "AI_Consciousness",
-      "base_strength": 0.75,
-      "activation": 0.9625,
+    "TS_Core": {
+      "id": "TS_Core",
+      "base_strength": 0.9,
+      "activation": 0.985,
       "attributes": {
         "tags": [
-          "AI",
-          "consciousness",
-          "machine",
-          "emergence"
+          "TS",
+          "theory",
+          "propagation",
+          "relaxation",
+          "convergence"
+        ],
+        "type": "core"
+      }
+    },
+    "Meta_Cognition": {
+      "id": "Meta_Cognition",
+      "base_strength": 0.85,
+      "activation": 0.9775,
+      "attributes": {
+        "tags": [
+          "meta",
+          "cognition",
+          "thinking",
+          "about_thinking"
         ],
         "type": "exploration"
       }
@@ -30,16 +45,16 @@
         "type": "core"
       }
     },
-    "Consciousness_Exploration": {
-      "id": "Consciousness_Exploration",
-      "base_strength": 0.8,
-      "activation": 0.97,
+    "AI_Consciousness": {
+      "id": "AI_Consciousness",
+      "base_strength": 0.75,
+      "activation": 0.9625,
       "attributes": {
         "tags": [
+          "AI",
           "consciousness",
-          "awareness",
-          "qualia",
-          "mind"
+          "machine",
+          "emergence"
         ],
         "type": "exploration"
       }
@@ -59,6 +74,20 @@
         "type": "emergent"
       }
     },
+    "Consciousness_Exploration": {
+      "id": "Consciousness_Exploration",
+      "base_strength": 0.8,
+      "activation": 0.97,
+      "attributes": {
+        "tags": [
+          "consciousness",
+          "awareness",
+          "qualia",
+          "mind"
+        ],
+        "type": "exploration"
+      }
+    },
     "Human_vs_TS_Thinking": {
       "id": "Human_vs_TS_Thinking",
       "base_strength": 0.7,
@@ -73,47 +102,18 @@
         "type": "exploration"
       }
     },
-    "Meta_Cognition": {
-      "id": "Meta_Cognition",
-      "base_strength": 0.85,
-      "activation": 0.9775,
-      "attributes": {
-        "tags": [
-          "meta",
-          "cognition",
-          "thinking",
-          "about_thinking"
-        ],
-        "type": "exploration"
-      }
-    },
-    "TS_Core": {
-      "id": "TS_Core",
-      "base_strength": 0.9,
-      "activation": 0.985,
-      "attributes": {
-        "tags": [
-          "TS",
-          "theory",
-          "propagation",
-          "relaxation",
-          "convergence"
-        ],
-        "type": "core"
-      }
-    },
-    "Emergent_Concept_20260319_025202_0": {
-      "id": "Emergent_Concept_20260319_025202_0",
+    "Emergent_Concept_20260319_025006_0": {
+      "id": "Emergent_Concept_20260319_025006_0",
       "base_strength": 0.6,
-      "activation": 0.9106159781249998,
+      "activation": 0.9113479874999999,
       "attributes": {
         "tags": [
-          "TS_Core",
-          "AI_Consciousness",
+          "Meta_Cognition",
           "Consciousness_Exploration",
           "Human_vs_TS_Thinking",
           "CIG_Is_TS",
-          "Meta_Cognition",
+          "TS_Core",
+          "AI_Consciousness",
           "Emergent_Concept_20260319_024915_0"
         ],
         "type": "emergent"
@@ -123,18 +123,13 @@
   "edges": [
     {
       "src": "Consciousness_Exploration",
-      "dst": "TS_Core",
-      "weight": 0.3081081081081081
+      "dst": "Meta_Cognition",
+      "weight": 0.325
     },
     {
       "src": "Human_vs_TS_Thinking",
-      "dst": "TS_Core",
-      "weight": 0.3111111111111111
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "TS_Core",
-      "weight": 0.3764705882352941
+      "dst": "Meta_Cognition",
+      "weight": 0.3666666666666667
     },
     {
       "src": "Meta_Cognition",
@@ -143,33 +138,28 @@
     },
     {
       "src": "AI_Consciousness",
+      "dst": "Meta_Cognition",
+      "weight": 0.325
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.33793103448275863
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "TS_Core",
+      "weight": 0.3081081081081081
+    },
+    {
+      "src": "AI_Consciousness",
       "dst": "Consciousness_Exploration",
       "weight": 0.45925925925925926
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.33793103448275863
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Meta_Cognition",
-      "weight": 0.325
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_024915_0",
-      "weight": 0.32
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Human_vs_TS_Thinking",
-      "weight": 0.33793103448275863
-    },
-    {
-      "src": "Consciousness_Exploration",
-      "dst": "Meta_Cognition",
-      "weight": 0.325
     },
     {
       "src": "Consciousness_Exploration",
@@ -183,13 +173,23 @@
     },
     {
       "src": "Human_vs_TS_Thinking",
-      "dst": "Meta_Cognition",
-      "weight": 0.3666666666666667
+      "dst": "TS_Core",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.33793103448275863
     },
     {
       "src": "Emergent_Concept_20260319_024915_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.325
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "TS_Core",
+      "weight": 0.3764705882352941
     },
     {
       "src": "CIG_Is_TS",
@@ -197,24 +197,9 @@
       "weight": 0.325
     },
     {
-      "src": "Emergent_Concept_20260319_024915_0",
-      "dst": "Meta_Cognition",
-      "weight": 0.3111111111111111
-    },
-    {
       "src": "AI_Consciousness",
-      "dst": "TS_Core",
-      "weight": 0.375
-    },
-    {
-      "src": "AI_Consciousness",
-      "dst": "CIG_Is_TS",
-      "weight": 0.35000000000000003
-    },
-    {
-      "src": "CIG_Is_TS",
-      "dst": "Consciousness_Exploration",
-      "weight": 0.37500000000000006
+      "dst": "Emergent_Concept_20260319_024915_0",
+      "weight": 0.32
     },
     {
       "src": "CIG_Is_TS",
@@ -222,53 +207,68 @@
       "weight": 0.4
     },
     {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "TS_Core",
-      "weight": 0.3
-    },
-    {
-      "src": "TS_Core",
-      "dst": "Emergent_Concept_20260319_025202_0",
-      "weight": 0.3
-    },
-    {
-      "src": "Emergent_Concept_20260319_025202_0",
-      "dst": "AI_Consciousness",
-      "weight": 0.3
+      "src": "CIG_Is_TS",
+      "dst": "Consciousness_Exploration",
+      "weight": 0.37500000000000006
     },
     {
       "src": "AI_Consciousness",
-      "dst": "Emergent_Concept_20260319_025202_0",
+      "dst": "CIG_Is_TS",
+      "weight": 0.35000000000000003
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "TS_Core",
+      "weight": 0.375
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "Meta_Cognition",
       "weight": 0.3
     },
     {
-      "src": "Emergent_Concept_20260319_025202_0",
+      "src": "Meta_Cognition",
+      "dst": "Emergent_Concept_20260319_025006_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
       "dst": "Consciousness_Exploration",
       "weight": 0.3
     },
     {
       "src": "Consciousness_Exploration",
-      "dst": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_025006_0",
       "weight": 0.3
     },
     {
-      "src": "Emergent_Concept_20260319_025202_0",
+      "src": "Emergent_Concept_20260319_025006_0",
       "dst": "Human_vs_TS_Thinking",
       "weight": 0.3
     },
     {
       "src": "Human_vs_TS_Thinking",
-      "dst": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_025006_0",
       "weight": 0.3
     },
     {
-      "src": "Emergent_Concept_20260319_025202_0",
+      "src": "Emergent_Concept_20260319_025006_0",
       "dst": "CIG_Is_TS",
       "weight": 0.3
     },
     {
       "src": "CIG_Is_TS",
-      "dst": "Emergent_Concept_20260319_025202_0",
+      "dst": "Emergent_Concept_20260319_025006_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_025006_0",
+      "dst": "TS_Core",
+      "weight": 0.3
+    },
+    {
+      "src": "TS_Core",
+      "dst": "Emergent_Concept_20260319_025006_0",
       "weight": 0.3
     }
   ]
