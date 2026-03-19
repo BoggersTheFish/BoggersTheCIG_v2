@@ -1,0 +1,38 @@
+# BoggersTheCIG-v2 — MAX-SPEED: every 5 minutes, < 45 seconds
+name: TS-CIG-v2
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  schedule:
+    # Every 5 minutes — maximum GitHub free tier frequency
+    - cron: '*/5 * * * *'
+
+jobs:
+  cig:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run CIG (8 fast cycles)
+        run: python build_cig.py
+
+      - name: Commit snapshots and new .md if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add snapshots/*.json snapshots/*.jsonl snapshots/*.png obsidian/TS-Knowledge-Vault/*.md 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "CIG: update snapshots and emergent nodes"
+          git push || true
