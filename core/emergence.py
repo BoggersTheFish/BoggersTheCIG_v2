@@ -56,6 +56,7 @@ def _create_emergent_md(
     summary: str,
     source_nodes: List[str],
     strength: float = 0.6,
+    node_type: str = "emergent",
 ) -> Path:
     """Create new .md file with proper frontmatter and summary."""
     vault_path.mkdir(parents=True, exist_ok=True)
@@ -64,6 +65,7 @@ def _create_emergent_md(
     frontmatter = f"""---
 strength: {strength}
 tags: [{", ".join(repr(t) for t in tags)}]
+type: {node_type}
 ---
 
 # {node_id}
@@ -88,8 +90,8 @@ def run_emergence(kernel: TSKernel, vault_path: str = VAULT_PATH) -> List[str]:
         ts = _get_timestamp()
         emergent_id = f"{EMERGENT_PREFIX}{ts}_{len(created)}"
         summary = f"Emergent concept from: {', '.join(node_ids[:5])}"
-        _create_emergent_md(vp, emergent_id, summary, node_ids)
-        kernel.add_node(emergent_id, base_strength=0.6, tags=node_ids)
+        _create_emergent_md(vp, emergent_id, summary, node_ids, node_type="emergent")
+        kernel.add_node(emergent_id, base_strength=0.6, tags=node_ids, node_type="emergent")
         # Add lightweight edges to cluster members
         for nid in node_ids[:5]:
             kernel.edges.append((emergent_id, nid, 0.3))

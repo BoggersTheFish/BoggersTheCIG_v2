@@ -1,5 +1,234 @@
 {
-  "strongest_node": null,
-  "nodes": {},
-  "edges": []
+  "strongest_node": "CIG_Is_TS",
+  "nodes": {
+    "AI_Consciousness": {
+      "id": "AI_Consciousness",
+      "base_strength": 0.75,
+      "activation": 0.9625,
+      "attributes": {
+        "tags": [
+          "AI",
+          "consciousness",
+          "machine",
+          "emergence"
+        ],
+        "type": "exploration"
+      }
+    },
+    "CIG_Is_TS": {
+      "id": "CIG_Is_TS",
+      "base_strength": 0.95,
+      "activation": 0.9924999999999999,
+      "attributes": {
+        "tags": [
+          "CIG",
+          "TS",
+          "embodiment",
+          "code",
+          "self"
+        ],
+        "type": "core"
+      }
+    },
+    "Consciousness_Exploration": {
+      "id": "Consciousness_Exploration",
+      "base_strength": 0.8,
+      "activation": 0.97,
+      "attributes": {
+        "tags": [
+          "consciousness",
+          "awareness",
+          "qualia",
+          "mind"
+        ],
+        "type": "exploration"
+      }
+    },
+    "Human_vs_TS_Thinking": {
+      "id": "Human_vs_TS_Thinking",
+      "base_strength": 0.7,
+      "activation": 0.955,
+      "attributes": {
+        "tags": [
+          "human",
+          "TS",
+          "comparison",
+          "cognition"
+        ],
+        "type": "exploration"
+      }
+    },
+    "Meta_Cognition": {
+      "id": "Meta_Cognition",
+      "base_strength": 0.85,
+      "activation": 0.9775,
+      "attributes": {
+        "tags": [
+          "meta",
+          "cognition",
+          "thinking",
+          "about_thinking"
+        ],
+        "type": "exploration"
+      }
+    },
+    "TS_Core": {
+      "id": "TS_Core",
+      "base_strength": 0.9,
+      "activation": 0.985,
+      "attributes": {
+        "tags": [
+          "TS",
+          "theory",
+          "propagation",
+          "relaxation",
+          "convergence"
+        ],
+        "type": "core"
+      }
+    },
+    "Emergent_Concept_20260319_024915_0": {
+      "id": "Emergent_Concept_20260319_024915_0",
+      "base_strength": 0.6,
+      "activation": 0.9102499734375,
+      "attributes": {
+        "tags": [
+          "AI_Consciousness",
+          "Consciousness_Exploration",
+          "Human_vs_TS_Thinking",
+          "Meta_Cognition",
+          "CIG_Is_TS",
+          "TS_Core"
+        ],
+        "type": "emergent"
+      }
+    }
+  },
+  "edges": [
+    {
+      "src": "AI_Consciousness",
+      "dst": "Consciousness_Exploration",
+      "weight": 0.45925925925925926
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.33793103448275863
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Meta_Cognition",
+      "weight": 0.325
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.33793103448275863
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Meta_Cognition",
+      "weight": 0.325
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "TS_Core",
+      "weight": 0.3081081081081081
+    },
+    {
+      "src": "Human_vs_TS_Thinking",
+      "dst": "Meta_Cognition",
+      "weight": 0.3666666666666667
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.34285714285714286
+    },
+    {
+      "src": "Human_vs_TS_Thinking",
+      "dst": "TS_Core",
+      "weight": 0.3111111111111111
+    },
+    {
+      "src": "Meta_Cognition",
+      "dst": "TS_Core",
+      "weight": 0.3621621621621622
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "TS_Core",
+      "weight": 0.3764705882352941
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "CIG_Is_TS",
+      "weight": 0.35000000000000003
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "TS_Core",
+      "weight": 0.375
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Consciousness_Exploration",
+      "weight": 0.37500000000000006
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Meta_Cognition",
+      "weight": 0.4
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "AI_Consciousness",
+      "weight": 0.3
+    },
+    {
+      "src": "AI_Consciousness",
+      "dst": "Emergent_Concept_20260319_024915_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Consciousness_Exploration",
+      "weight": 0.3
+    },
+    {
+      "src": "Consciousness_Exploration",
+      "dst": "Emergent_Concept_20260319_024915_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Human_vs_TS_Thinking",
+      "weight": 0.3
+    },
+    {
+      "src": "Human_vs_TS_Thinking",
+      "dst": "Emergent_Concept_20260319_024915_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "Meta_Cognition",
+      "weight": 0.3
+    },
+    {
+      "src": "Meta_Cognition",
+      "dst": "Emergent_Concept_20260319_024915_0",
+      "weight": 0.3
+    },
+    {
+      "src": "Emergent_Concept_20260319_024915_0",
+      "dst": "CIG_Is_TS",
+      "weight": 0.3
+    },
+    {
+      "src": "CIG_Is_TS",
+      "dst": "Emergent_Concept_20260319_024915_0",
+      "weight": 0.3
+    }
+  ]
 }

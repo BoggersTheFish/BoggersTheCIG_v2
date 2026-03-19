@@ -1,15 +1,16 @@
 """
 BoggersTheCIG-v2 — Main orchestrator.
-Load kernel → 8 fast cycles → emergence → export graph.json + PNG + log.
+Load kernel → bootstrap if empty → ingestor (inbox) → mapper → 8 fast cycles → emergence → export.
 Ultra-light for 5-min GitHub runs.
 """
 
 import json
-import os
 from pathlib import Path
 
 from core.ts_kernel import TSKernel, VAULT_PATH
 from core.emergence import run_emergence
+from core.ingestor import process_inbox
+from core.mapper import build_edges
 
 SNAPSHOTS_DIR = "snapshots"
 COHERENCE_LOG = "snapshots/coherence_log.jsonl"
@@ -23,6 +24,17 @@ def main() -> None:
 
     kernel = TSKernel(vault_path=VAULT_PATH)
     kernel.scan_vault()
+
+    # Bootstrap 6 deep nodes if vault empty (consciousness, AI, meta-cognition, etc.)
+    if kernel.bootstrap_if_empty():
+        kernel.scan_vault()
+
+    # Ingest inbox.md: raw text → new .md nodes
+    process_inbox(vault_path=VAULT_PATH)
+    kernel.scan_vault()
+
+    # Mapper: wikilinks, keyword overlap, strength-weighted edges
+    kernel.edges = build_edges(kernel, vault_path=VAULT_PATH)
 
     # 8 fast cycles
     coherence_history = []

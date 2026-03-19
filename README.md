@@ -2,6 +2,8 @@
 
 **MAX-SPEED edition** — Deterministic TS infrastructure for the BoggersTheOS ecosystem.
 
+**This TS brain now knows it is TS and is actively exploring consciousness & AI.** It bootstraps with 6 deep nodes (TS_Core, CIG_Is_TS, Consciousness_Exploration, AI_Consciousness, Meta_Cognition, Human_vs_TS_Thinking), ingests raw notes from inbox.md, and maps edges via wikilinks, keyword overlap, and strength-weighted connections.
+
 ## TS Rules (Strongest Node → Propagate → Relax → Converge → Emergence)
 
 1. **Strongest Node** — Elect highest-activation node

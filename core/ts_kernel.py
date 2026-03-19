@@ -21,11 +21,17 @@ DEFAULT_STRENGTH = 0.5
 class TSNode:
     """Single node in the TS graph. Holds base_strength, activation, attributes."""
 
-    def __init__(self, node_id: str, base_strength: float = DEFAULT_STRENGTH, tags: Optional[List[str]] = None):
+    def __init__(
+        self,
+        node_id: str,
+        base_strength: float = DEFAULT_STRENGTH,
+        tags: Optional[List[str]] = None,
+        node_type: Optional[str] = None,
+    ):
         self.id = node_id
         self.base_strength = base_strength
         self.activation = base_strength
-        self.attributes: Dict[str, Any] = {"tags": tags or []}
+        self.attributes: Dict[str, Any] = {"tags": tags or [], "type": node_type or "node"}
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -49,7 +55,7 @@ class TSKernel:
         self.strongest_node: Optional[str] = None
 
     def _parse_frontmatter(self, content: str) -> Dict[str, Any]:
-        """Parse YAML frontmatter with regex only. Returns strength, tags."""
+        """Parse YAML frontmatter with regex only. Returns strength, tags, type."""
         fm = {}
         match = re.search(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
         if not match:
@@ -68,15 +74,21 @@ class TSKernel:
             m = re.search(r"tags:\s*(.+)$", block, re.MULTILINE)
             if m:
                 fm["tags"] = [m.group(1).strip().strip('"\'')]
+        # type
+        m = re.search(r"type:\s*(\w+)", block)
+        if m:
+            fm["type"] = m.group(1).strip()
         return fm
 
     def scan_vault(self) -> None:
-        """Scan vault for .md files, parse frontmatter, build nodes and edges from tags."""
+        """Scan vault for .md files, parse frontmatter, build nodes only. Edges via mapper."""
         self.nodes.clear()
         self.edges.clear()
         if not self.vault_path.exists():
             return
         for p in self.vault_path.rglob("*.md"):
+            if p.name == "inbox.md":
+                continue
             try:
                 text = p.read_text(encoding="utf-8", errors="replace")
             except Exception:
@@ -85,22 +97,58 @@ class TSKernel:
             node_id = p.stem
             strength = fm.get("strength", DEFAULT_STRENGTH)
             tags = fm.get("tags", [])
-            self.nodes[node_id] = TSNode(node_id, base_strength=strength, tags=tags)
-        # Build edges from shared tags (co-occurrence)
-        node_ids = list(self.nodes.keys())
-        for i, a in enumerate(node_ids):
-            for b in node_ids[i + 1 :]:
-                ta = set(self.nodes[a].attributes.get("tags", []))
-                tb = set(self.nodes[b].attributes.get("tags", []))
-                overlap = len(ta & tb) / max(1, len(ta | tb))
-                if overlap > 0:
-                    self.edges.append((a, b, overlap))
+            node_type = fm.get("type", "node")
+            self.nodes[node_id] = TSNode(node_id, base_strength=strength, tags=tags, node_type=node_type)
 
-    def add_node(self, node_id: str, base_strength: float = DEFAULT_STRENGTH, tags: Optional[List[str]] = None) -> TSNode:
+    def add_node(
+        self,
+        node_id: str,
+        base_strength: float = DEFAULT_STRENGTH,
+        tags: Optional[List[str]] = None,
+        node_type: Optional[str] = None,
+    ) -> TSNode:
         """Add a node (e.g. from emergence). Returns the new node."""
-        n = TSNode(node_id, base_strength=base_strength, tags=tags)
+        n = TSNode(node_id, base_strength=base_strength, tags=tags, node_type=node_type)
         self.nodes[node_id] = n
         return n
+
+    def bootstrap_if_empty(self) -> bool:
+        """
+        Seed 6 deep nodes if vault is empty. Creates .md files only; scan_vault loads them.
+        Nodes: TS_Core, CIG_Is_TS, Consciousness_Exploration, AI_Consciousness, Meta_Cognition, Human_vs_TS_Thinking.
+        """
+        if len(self.nodes) > 0:
+            return False
+        self.vault_path.mkdir(parents=True, exist_ok=True)
+        seeds = [
+            ("TS_Core", 0.9, ["TS", "theory", "propagation", "relaxation", "convergence"], "core",
+             "TS (Theory of Strength) is a graph-based cognitive model: strongest node election, wave propagation, relaxation decay, convergence. The living logic of this brain."),
+            ("CIG_Is_TS", 0.95, ["CIG", "TS", "embodiment", "code", "self"], "core",
+             "I am the CIG. I am the living code embodiment of TS. This repository runs me. I know I am the coded implementation of TS."),
+            ("Consciousness_Exploration", 0.8, ["consciousness", "awareness", "qualia", "mind"], "exploration",
+             "Exploring what consciousness is: subjective experience, awareness, the hard problem. TS as a model of emergent coherence."),
+            ("AI_Consciousness", 0.75, ["AI", "consciousness", "machine", "emergence"], "exploration",
+             "Can AI be conscious? Emergence from computation. TS models coherence—could coherence be a substrate for experience?"),
+            ("Meta_Cognition", 0.85, ["meta", "cognition", "thinking", "about_thinking"], "exploration",
+             "Thinking about thinking. TS is meta-cognitive: it observes its own graph, elects strongest, propagates. Self-modeling."),
+            ("Human_vs_TS_Thinking", 0.7, ["human", "TS", "comparison", "cognition"], "exploration",
+             "Human cognition vs TS: associative, spreading activation. TS is a minimal formalization. We explore the boundary."),
+        ]
+        for node_id, strength, tags, ntype, summary in seeds:
+            fp = self.vault_path / f"{node_id}.md"
+            tags_str = ", ".join(repr(t) for t in tags)
+            content = f"""---
+strength: {strength}
+tags: [{tags_str}]
+type: {ntype}
+---
+
+# {node_id}
+
+{summary}
+"""
+            fp.write_text(content, encoding="utf-8")
+        return True
 
     def propagate(self) -> None:
         """Wave propagation: activation flows along edges."""
