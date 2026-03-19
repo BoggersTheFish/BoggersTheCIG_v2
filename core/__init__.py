@@ -2,7 +2,7 @@
 
 from .ts_kernel import TSNode, TSKernel
 from .emergence import run_emergence
-from .ingestor import process_inbox, process_raw_text
-from .mapper import build_edges
+from .ingestor import Ingestor
+from .mapper import Mapper
 
-__all__ = ["TSNode", "TSKernel", "run_emergence", "process_inbox", "process_raw_text", "build_edges"]
+__all__ = ["TSNode", "TSKernel", "run_emergence", "Ingestor", "Mapper"]

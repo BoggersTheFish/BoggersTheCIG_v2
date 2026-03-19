@@ -9,8 +9,8 @@ from pathlib import Path
 
 from core.ts_kernel import TSKernel, VAULT_PATH
 from core.emergence import run_emergence
-from core.ingestor import process_inbox
-from core.mapper import build_edges
+from core.ingestor import Ingestor
+from core.mapper import Mapper
 
 SNAPSHOTS_DIR = "snapshots"
 COHERENCE_LOG = "snapshots/coherence_log.jsonl"
@@ -29,12 +29,13 @@ def main() -> None:
     if kernel.bootstrap_if_empty():
         kernel.scan_vault()
 
-    # Ingest inbox.md: raw text → new .md nodes
-    process_inbox(vault_path=VAULT_PATH)
+    # Ingestor: process inbox.md if present (then clears it)
+    ingestor = Ingestor(vault_path=VAULT_PATH)
+    ingestor.process_inbox()
     kernel.scan_vault()
 
     # Mapper: wikilinks, keyword overlap, strength-weighted edges
-    kernel.edges = build_edges(kernel, vault_path=VAULT_PATH)
+    Mapper(vault_path=VAULT_PATH).build_edges(kernel)
 
     # 8 fast cycles
     coherence_history = []
